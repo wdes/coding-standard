@@ -29,12 +29,12 @@
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Commenting.ForbiddenAnnotations">
-		<properties>
-			<property name="forbiddenAnnotations" type="array" value="
+        <properties>
+            <property name="forbiddenAnnotations" type="array" value="
 				@package
 			"/>
-		</properties>
-	</rule>
+        </properties>
+    </rule>
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
     <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
@@ -53,16 +53,16 @@
     <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
     <rule ref="Generic.PHP.DeprecatedFunctions"/>
     <rule ref="Generic.PHP.ForbiddenFunctions">
-    <rule ref="Generic.PHP.LowerCaseType"/>
-    <properties>
-        <property name="forbiddenFunctions" type="array">
-            <element key="sizeof" value="count"/>
-            <element key="delete" value="unset"/>
-            <element key="print" value="echo"/>
-            <element key="is_null" value="null"/>
-            <element key="create_function" value="null"/>
-        </property>
-    </properties>
+        <rule ref="Generic.PHP.LowerCaseType"/>
+        <properties>
+            <property name="forbiddenFunctions" type="array">
+                <element key="sizeof" value="count"/>
+                <element key="delete" value="unset"/>
+                <element key="print" value="echo"/>
+                <element key="is_null" value="null"/>
+                <element key="create_function" value="null"/>
+            </property>
+        </properties>
     </rule>
     <rule ref="Generic.Files.LineLength">
         <properties>
