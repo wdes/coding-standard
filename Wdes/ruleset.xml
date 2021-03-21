@@ -10,6 +10,9 @@
     <description>Wdes coding standard</description>
 
     <config name="installed_paths" value="../../slevomat/coding-standard"/>
+    <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
+    <rule ref="SlevomatCodingStandard.PHP.UselessSemicolon"/>
+    <rule ref="SlevomatCodingStandard.Functions.StaticClosure"/>
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
     <rule ref="SlevomatCodingStandard.Namespaces.MultipleUsesPerLine"/>
     <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
@@ -101,6 +104,7 @@
     <rule ref="PSR2.Methods.MethodDeclaration"/>
     <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
     <rule ref="PSR2.Namespaces.UseDeclaration"/>
+    <rule ref="Squiz.Strings.DoubleQuoteUsage" />
     <rule ref="Squiz.PHP.CommentedOutCode">
         <properties>
             <property name="maxPercentage" value="50"/>
