@@ -1,0 +1,25 @@
+{
+    "name": "wdes/coding-standard",
+    "description": "The Wdes coding standard",
+    "type": "phpcodesniffer-standard",
+    "keywords": ["phpcs", "CodeSniffer", "Wdes"],
+    "homepage": "https://github.com/wdes/coding-standard",
+    "readme": "https://github.com/wdes/coding-standard#readme",
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "squizlabs/php_codesniffer": "^3.5",
+        "slevomat/coding-standard": "^6.4"
+    },
+    "support": {
+        "email": "williamdes@wdes.fr",
+        "issues": "https://github.com/wdes/coding-standard/issues",
+        "source": "https://github.com/wdes/coding-standard"
+    },
+    "license": "UNLICENSE",
+    "authors": [
+        {
+            "name": "William Desportes",
+            "email": "williamdes@wdes.fr"
+        }
+    ]
+}
