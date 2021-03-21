@@ -6,7 +6,7 @@ The Wdes coding-standard
 
 - Run `composer require --dev wdes/coding-standard`
 - Create file: `phpcs.xml` with the contents below
-- Remove phpcs from your dev deps if you have it, we require it for you
+- Remove phpcs from your dev deps if you have it, we require it for you. Use `composer remove squizlabs/php_codesniffer --dev`
 
 ```xml
 <?xml version="1.0"?>
