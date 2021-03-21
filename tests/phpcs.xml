@@ -6,6 +6,8 @@
     <arg name="no-colors"/>
     <arg name="no-cache"/>
     <arg name="basepath" value="."/>
+    <!-- For the testsuite to use a fixed console width -->
+    <arg name="report-width" value="300"/>
 
     <file>.</file>
 

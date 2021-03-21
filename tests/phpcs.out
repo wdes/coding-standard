@@ -1,8 +1,8 @@
 
 FILE: badFormattedFile.php
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FOUND 21 ERRORS AND 2 WARNINGS AFFECTING 6 LINES
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   1 | ERROR   | [x] Header blocks must be separated by a single blank line (PSR12.Files.FileHeader.SpacingAfterBlock)
   2 | ERROR   | [x] Expected 2 newlines between PHP open tag and declare statement, found 1. (SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectWhitespaceBetweenOpenTagAndDeclare)
   2 | ERROR   | [x] Expected strict_types = 1, found strict_types=1. (SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectStrictTypesFormat)
@@ -27,7 +27,7 @@ FOUND 21 ERRORS AND 2 WARNINGS AFFECTING 6 LINES
  10 | ERROR   | [x] Expected 0 spaces before closing bracket; 1 found (PSR12.ControlStructures.ControlStructureSpacing.SpaceBeforeCloseBrace)
  10 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
  11 | ERROR   | [x] Expected 1 newline at end of file; 0 found (PSR2.Files.EndFileNewline.NoneFound)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 PHPCBF CAN FIX THE 19 MARKED SNIFF VIOLATIONS AUTOMATICALLY
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
