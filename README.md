@@ -14,6 +14,8 @@ The Wdes coding-standard
     <!-- Show progress and sniff codes -->
     <arg value="ps"/>
     <arg name="colors"/>
+    <!-- Make sniff report relative -->
+    <arg name="basepath" value="."/>
 
     <file>.</file>
     <exclude-pattern>*/tmp/*</exclude-pattern>
