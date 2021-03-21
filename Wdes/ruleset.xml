@@ -85,8 +85,6 @@
     <rule ref="MySource.PHP.EvalObjectFactory"/>
     <!-- <rule ref="MySource.PHP.GetRequestData"/> -->
     <rule ref="PEAR.Classes.ClassDeclaration"/>
-    <rule ref="PEAR.Commenting.FunctionComment"/>
-    <rule ref="PEAR.Commenting.InlineComment"/>
     <rule ref="PEAR.ControlStructures.ControlSignature"/>
     <rule ref="PEAR.ControlStructures.MultiLineCondition"/>
     <rule ref="PEAR.Formatting.MultiLineAssignment"/>
@@ -105,11 +103,6 @@
     <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
     <rule ref="PSR2.Namespaces.UseDeclaration"/>
     <rule ref="Squiz.Strings.DoubleQuoteUsage" />
-    <rule ref="Squiz.PHP.CommentedOutCode">
-        <properties>
-            <property name="maxPercentage" value="50"/>
-        </properties>
-    </rule>
     <rule ref="Squiz.PHP.DisallowMultipleAssignments"/>
     <rule ref="Squiz.PHP.DisallowSizeFunctionsInLoops"/>
     <rule ref="Squiz.PHP.DiscouragedFunctions">
