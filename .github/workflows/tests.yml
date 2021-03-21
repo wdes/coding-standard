@@ -32,5 +32,5 @@ jobs:
             - name: Test some rules
               # Remove last lines to not assert on the time that was necessary to process the files
               run: ./vendor/bin/phpcs --standard=tests/phpcs.xml tests/ | sed '$d' | sed '$d' > process.out
-            - name: Test some rules
-              run: diff -s tests/phpcs.out process.out  > /dev/null
+            - name: Test that there is no diff
+              run: diff -s tests/phpcs.out process.out
