@@ -2,6 +2,10 @@
 
 The Wdes coding-standard
 
+## Rules to disable for PHP 5 compat
+
+- `Generic.Arrays.DisallowLongArraySyntax`
+
 ## How to add it
 
 - Run `composer require --dev wdes/coding-standard`
