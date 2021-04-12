@@ -4,7 +4,7 @@ FILE: badFormattedFile.php
 FOUND 22 ERRORS AND 2 WARNINGS AFFECTING 7 LINES
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   1 | ERROR   | [x] Header blocks must be separated by a single blank line (PSR12.Files.FileHeader.SpacingAfterBlock)
-  2 | ERROR   | [x] Expected 2 newlines between PHP open tag and declare statement, found 1. (SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectWhitespaceBetweenOpenTagAndDeclare)
+  2 | ERROR   | [x] Expected 1 line before declare statement, found 0. (SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectWhitespaceBeforeDeclare)
   2 | ERROR   | [x] Expected strict_types = 1, found strict_types=1. (SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectStrictTypesFormat)
   4 | WARNING | [ ] Avoid IF statements that are always true or false (Generic.CodeAnalysis.UnconditionalIfStatement.Found)
   4 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n" (PEAR.ControlStructures.ControlSignature.Found)
