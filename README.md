@@ -2,7 +2,7 @@
 
 The Wdes coding-standard
 
-## Rules to disable for PHP 5 compat
+## Rules to disable for `PHP < 5.4` compatibility
 
 - `Generic.Arrays.DisallowLongArraySyntax`
 
