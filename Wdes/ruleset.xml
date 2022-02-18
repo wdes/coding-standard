@@ -25,6 +25,17 @@
     <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
     <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
+    <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma">
+    <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration">
+    <rule ref="SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile">
+    <rule ref="SlevomatCodingStandard.Namespaces.NamespaceDeclaration">
+    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
+    <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility">
+    <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue">
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing">
+    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHintSpacing">
+    <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse">
+
         <properties>
             <property name="newlinesCountBetweenOpenTagAndDeclare" value="2"/>
             <property name="newlinesCountAfterDeclare" value="2"/>
@@ -39,6 +50,7 @@
         </properties>
     </rule>
 
+    <rule ref="SlevomatCodingStandard.PHP.ShortList"/>
     <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
     <rule ref="Generic.Classes.DuplicateClassName"/>
     <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
@@ -145,6 +157,7 @@
         <exclude name="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody"/>
     </rule>
     <rule ref="PSR12">
+        <exclude name="PSR12.Classes.OpeningBraceSpace.Found"/>
         <exclude name="PSR12.Files.DeclareStatement.SpaceFoundAfterDirective"/>
         <exclude name="PSR12.Files.DeclareStatement.SpaceFoundBeforeDirectiveValue"/>
     </rule>
