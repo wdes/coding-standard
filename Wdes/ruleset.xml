@@ -24,18 +24,18 @@
     <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints"/>
     <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
     <rule ref="SlevomatCodingStandard.Namespaces.UseFromSameNamespace"/>
-    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
-    <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma">
-    <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration">
-    <rule ref="SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile">
-    <rule ref="SlevomatCodingStandard.Namespaces.NamespaceDeclaration">
-    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
-    <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility">
-    <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue">
-    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing">
-    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHintSpacing">
-    <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse">
+    <rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
+    <rule ref="SlevomatCodingStandard.Functions.DisallowTrailingCommaInDeclaration"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.RequireOneNamespaceInFile"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.NamespaceDeclaration"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing"/>
+    <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.ParameterTypeHintSpacing"/>
+    <rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHintSpacing"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse"/>
 
+    <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property name="newlinesCountBetweenOpenTagAndDeclare" value="2"/>
             <property name="newlinesCountAfterDeclare" value="2"/>
