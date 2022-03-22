@@ -6,6 +6,10 @@ The Wdes coding-standard
 
 - `Generic.Arrays.DisallowLongArraySyntax`
 
+## Rules to disable for `PHP < 7` compatibility
+
+- `SlevomatCodingStandard.Classes.ClassConstantVisibility.MissingConstantVisibility`
+
 ## How to add it
 
 - Run `composer require --dev wdes/coding-standard`
