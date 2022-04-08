@@ -21,5 +21,10 @@
             "name": "William Desportes",
             "email": "williamdes@wdes.fr"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
 }
