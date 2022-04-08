@@ -1,10 +1,13 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
 
     <!-- Show sniff codes -->
     <arg value="s"/>
-    <arg name="no-colors"/>
+    <!-- Disable cache -->
     <arg name="no-cache"/>
+    <!-- Disable colors -->
+    <arg name="no-colors"/>
+    <!-- Make sniff report relative -->
     <arg name="basepath" value="."/>
     <!-- For the testsuite to use a fixed console width -->
     <arg name="report-width" value="300"/>
