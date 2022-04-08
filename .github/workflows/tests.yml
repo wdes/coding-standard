@@ -27,6 +27,8 @@ jobs:
                   key: composer-cache
             - name: Install dependencies
               run: composer install
+            - name: Lint the ruleset
+              run: xmllint --noout --schema ./vendor/squizlabs/php_codesniffer/phpcs.xsd Wdes/ruleset.xml
             - name: Lint the test coding standard file
               run: xmllint --noout --schema ./vendor/squizlabs/php_codesniffer/phpcs.xsd tests/phpcs.xml
             - name: Test the ruleset
