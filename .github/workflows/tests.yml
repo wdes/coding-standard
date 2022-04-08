@@ -16,6 +16,11 @@ jobs:
                 php-version: ["7.1", "7.2", "7.3", "7.4", "8.0", "8.1"]
         steps:
             - uses: actions/checkout@v2
+            - name: Install xmllint
+              run: |
+                sudo apt update
+                sudo apt install --no-install-recommends -y libxml2-utils
+                sudo apt clean
             - name: Use php ${{ matrix.php-version }}
               uses: shivammathur/setup-php@v2
               with:
