@@ -8,6 +8,7 @@
     <!-- https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-Ruleset -->
     <description>Wdes coding standard</description>
 
+    <arg name="extensions" value="php" />
     <config name="installed_paths" value="../../slevomat/coding-standard"/>
     <rule ref="SlevomatCodingStandard.Classes.ClassConstantVisibility"/>
     <rule ref="SlevomatCodingStandard.PHP.UselessSemicolon"/>
