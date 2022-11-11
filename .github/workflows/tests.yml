@@ -25,13 +25,8 @@ jobs:
               uses: shivammathur/setup-php@v2
               with:
                   php-version: ${{ matrix.php-version }}
-            - name: Cache module
-              uses: actions/cache@v3
-              with:
-                  path: ~/.composer/cache/
-                  key: composer-cache
             - name: Install dependencies
-              run: composer install
+              run: composer install --no-cache
             - name: Lint the ruleset
               run: xmllint --noout --schema ./vendor/squizlabs/php_codesniffer/phpcs.xsd Wdes/ruleset.xml
             - name: Lint the test coding standard file
