@@ -1,14 +1,14 @@
 name: Test standard
 
 permissions:
-  contents: read
+    contents: read
 
 on:
-  push:
-  pull_request:
-    types: [opened, synchronize, reopened]
-    branches:
-      - main
+    push:
+    pull_request:
+        types: [opened, synchronize, reopened]
+        branches:
+            - main
 
 jobs:
     test-ruleset:
@@ -16,14 +16,14 @@ jobs:
         runs-on: ubuntu-latest
         strategy:
             matrix:
-                php-version: ["7.2", "7.3", "7.4", "8.0", "8.1", "8.2"]
+                php-version: ["7.2", "7.3", "7.4", "8.0", "8.1", "8.2", "8.3"]
         steps:
             - uses: actions/checkout@v3
             - name: Install xmllint
               run: |
-                sudo apt update
-                sudo apt install --no-install-recommends -y libxml2-utils
-                sudo apt clean
+                  sudo apt update
+                  sudo apt install --no-install-recommends -y libxml2-utils
+                  sudo apt clean
             - name: Use php ${{ matrix.php-version }}
               uses: shivammathur/setup-php@v2
               with:
