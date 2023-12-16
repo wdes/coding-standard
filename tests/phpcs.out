@@ -8,15 +8,15 @@ FOUND 22 ERRORS AND 2 WARNINGS AFFECTING 7 LINES
   2 | ERROR   | [x] Expected strict_types = 1, found strict_types=1. (SlevomatCodingStandard.TypeHints.DeclareStrictTypes.IncorrectStrictTypesFormat)
   4 | WARNING | [ ] Avoid IF statements that are always true or false (Generic.CodeAnalysis.UnconditionalIfStatement.Found)
   4 | ERROR   | [ ] Expected "if (...) {\n"; found "if(...){\n" (PEAR.ControlStructures.ControlSignature.Found)
-  4 | ERROR   | [x] Expected 1 space(s) after IF keyword; 0 found (Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword)
-  4 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+  4 | ERROR   | [x] Expected 1 space after IF keyword; 0 found (Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword)
+  4 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
   4 | ERROR   | [x] There must be a single space between the closing parenthesis and the opening brace of a multi-line IF statement; found 0 spaces
     |         |     (PEAR.ControlStructures.MultiLineCondition.SpaceBeforeOpenBrace)
   5 | ERROR   | [x] Short array syntax must be used to define arrays (Generic.Arrays.DisallowLongArraySyntax.Found)
   6 | WARNING | [x] Equals sign not aligned with surrounding assignments; expected 4 spaces but found 1 space (Generic.Formatting.MultipleStatementAlignment.NotSameWarning)
  10 | ERROR   | [ ] Empty FOREACH statement detected (Generic.CodeAnalysis.EmptyStatement.DetectedForeach)
  10 | ERROR   | [ ] Expected "foreach (...) {\n"; found "foreach(...){\n" (PEAR.ControlStructures.ControlSignature.Found)
- 10 | ERROR   | [x] Expected 1 space(s) after FOREACH keyword; 0 found (Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword)
+ 10 | ERROR   | [x] Expected 1 space after FOREACH keyword; 0 found (Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword)
  10 | ERROR   | [x] Expected 1 space before "=>"; 2 found (Squiz.ControlStructures.ForEachLoopDeclaration.SpacingBeforeArrow)
  10 | ERROR   | [x] Expected 1 space after "=>"; 2 found (Squiz.ControlStructures.ForEachLoopDeclaration.SpacingAfterArrow)
  10 | ERROR   | [x] Expected 1 space before "as"; 2 found (Squiz.ControlStructures.ForEachLoopDeclaration.SpacingBeforeAs)
@@ -26,7 +26,7 @@ FOUND 22 ERRORS AND 2 WARNINGS AFFECTING 7 LINES
  10 | ERROR   | [x] Expected 1 space after "=>"; 2 found (Squiz.WhiteSpace.OperatorSpacing.SpacingAfter)
  10 | ERROR   | [x] Expected 0 spaces before closing bracket; 1 found (PSR2.ControlStructures.ControlStructureSpacing.SpaceBeforeCloseBrace)
  10 | ERROR   | [x] Expected 0 spaces before closing bracket; 1 found (PSR12.ControlStructures.ControlStructureSpacing.SpaceBeforeCloseBrace)
- 10 | ERROR   | [x] Expected 1 space(s) after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
+ 10 | ERROR   | [x] Expected 1 space after closing parenthesis; found 0 (Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis)
  11 | ERROR   | [x] Expected 1 newline at end of file; 0 found (PSR2.Files.EndFileNewline.NoneFound)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 PHPCBF CAN FIX THE 20 MARKED SNIFF VIOLATIONS AUTOMATICALLY
